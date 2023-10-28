@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpg" href="img/iconMack.png" />
+</head>
+<body>
+    <header>
+        <img src="img/logo_mack.png" alt="Logo da Faculdade Mackenzie">
+        <h1>Time de Basquete da Faculdade Mackenzie</h1>
+        <!-- Abas de navegação -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="jogadores.html">Jogadores</a></li>
+                <li><a href="calendario.html">Calendário</a></li>
+                <li><a href="dieta.html">Dieta e Treino</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="dieta-treino">
+        <h2 style="color: white;">Dieta e Treino</h2>
+    
+<h3 style="color: white;">Horário das Refeições</h3>
+<table class="refeicoes">
+    <tr>
+        <th>Refeição</th>
+        <th>Horário</th>
+        <th>Exemplo de Refeição</th>
+    </tr>
+    <tr>
+        <td>Café da Manhã</td>
+        <td>07:00</td>
+        <td>
+            <p>2 ovos mexidos</p>
+            <p>1 xícara de aveia com frutas</p>
+            <p>1 copo de suco de laranja</p>
+        </td>
+    </tr>
+    <tr>
+        <td>Lanche da Manhã</td>
+        <td>10:00</td>
+        <td>
+            <p>1 iogurte grego</p>
+            <p>Um punhado de nozes</p>
+        </td>
+    </tr>
+    <tr>
+        <td>Almoço</td>
+        <td>12:30</td>
+        <td>
+            <p>Peito de frango grelhado</p>
+            <p>Arroz integral</p>
+            <p>Legumes cozidos no vapor</p>
+            <p>Salada verde</p>
+        </td>
+    </tr>
+    <tr>
+        <td>Lanche da Tarde</td>
+        <td>15:30</td>
+        <td>
+            <p>Frutas (banana, maçã, etc.)</p>
+            <p>Uma barra de proteína</p>
+        </td>
+    </tr>
+    <tr>
+        <td>Jantar</td>
+        <td>19:00</td>
+        <td>
+            <p>Salmão grelhado</p>
+            <p>Batata-doce</p>
+            <p>Brócolis cozidos</p>
+            <p>Salada mista</p>
+        </td>
+    </tr>
+</table>
+    
+        <h3 style="color: white;">Treinamento de Musculação</h3>
+        <table class="treinamento">
+            <tr>
+                <th>Dia</th>
+                <th>Grupo Muscular</th>
+                <th>Exercícios</th>
+                <th>Séries</th>
+            </tr>
+            <tr>
+                <td>Segunda-feira</td>
+                <td>Peito e Tríceps</td>
+                <td>Supino, Crucifixo, Tríceps Pulldown</td>
+                <td>3 séries de 10 repetições cada</td>
+            </tr>
+            <tr>
+                <td>Terça-feira</td>
+                <td>Costas e Bíceps</td>
+                <td>Puxada Alta, Rosca Direta, Rosca Martelo</td>
+                <td>3 séries de 10 repetições cada</td>
+            </tr>
+            <tr>
+                <td>Quarta-feira</td>
+                <td>Descanso</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Quinta-feira</td>
+                <td>Pernas</td>
+                <td>Agachamento, Leg Press, Calf Raise</td>
+                <td>3 séries de 12 repetições cada</td>
+            </tr>
+            <tr>
+                <td>Sexta-feira</td>
+                <td>Ombros e Trapézio</td>
+                <td>Desenvolvimento, Elevação Lateral, Encolhimento</td>
+                <td>3 séries de 10 repetições cada</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>Descanso</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td>Descanso</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+    
+        <h3 style="color: white;">Calculadora de IMC</h3>
+        <p style="color: white;">Preencha os campos abaixo para calcular o seu Índice de Massa Corporal (IMC):</p>
+        <form id="imc-form">
+            <label for="altura">Altura (em metros):</label>
+            <input type="number" step="0.01" id="altura" name="altura" required>
+            <br>
+            <label for="peso">Peso (em quilogramas):</label>
+            <input type="number" step="0.1" id="peso" name="peso" required>
+            <br>
+            <button type="submit">Calcular IMC</button>
+        </form>
+        <div id="resultado-imc"></div>
+    </section>
+
+    <footer>
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações sobre o time de basquete da Faculdade Mackenzie:</p>
+        <p>Email: basquete@mackenzie.edu.br</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
